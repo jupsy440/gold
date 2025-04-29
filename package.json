@@ -1,9 +1,5 @@
-{
-  "scripts": {
-    "build": "vite build",
-    "vercel-build": "npm install --unsafe-perm && npm run build"
-  },
-  "dependencies": {
-    "vite": "^6.3.3"
-  }
+﻿{
+    "engines":  {
+                    "node":  "18.x"
+                }
 }
