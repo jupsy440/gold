@@ -3,5 +3,7 @@
     "build": "vite build",
     "vercel-build": "npm install --unsafe-perm && npm run build"
   },
-  "dependencies": {}
+  "dependencies": {
+    "vite": "^6.3.3"
+  }
 }
