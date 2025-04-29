@@ -7,15 +7,9 @@
       "config": {
         "distDir": "dist",
         "nodeVersion": "18",
-        "installCommand": "npm install",
-        "buildCommand": "npm run build"
+        "installCommand": "npm install --unsafe-perm",
+        "buildCommand": "vue-tsc -b && vite build"
       }
-    }
-  ],
-  "routes": [
-    {
-      "src": "/(.*)",
-      "dest": "/index.html"
     }
   ]
 }
