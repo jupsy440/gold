@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+Sitemap: https://www.cryptoinvesteasy.com/sitemap.xml
+# Last redeploy: [29/04/2025]

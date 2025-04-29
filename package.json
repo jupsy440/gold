@@ -1,5 +1,9 @@
-﻿{
-    "engines":  {
-                    "node":  "18.x"
-                }
+{
+    "engines": {
+        "node": "18.x"
+    },
+    "dependencies": {
+        "@vitejs/plugin-vue": "^5.2.3",
+        "vue": "^3.5.13"
+    }
 }
