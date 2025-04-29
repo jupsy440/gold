@@ -1,7 +1,12 @@
 {
+  "name": "crypto-main",
+  "version": "1.0.0",
   "scripts": {
     "dev": "vite",
-    "build": "vite build", 
+    "build": "vite build",
     "vercel-build": "npm install --unsafe-perm && npm run build"
+  },
+  "dependencies": {
+    "vite": "^6.3.3"
   }
 }
