@@ -1,15 +1,26 @@
 {
   "version": 2,
+  "build": {
+    "env": {
+      "NODE_VERSION": "18",
+      "NPM_CONFIG_UNSAFE_PERM": "true"
+    }
+  },
   "builds": [
     {
       "src": "package.json",
       "use": "@vercel/static-build",
       "config": {
         "distDir": "dist",
-        "nodeVersion": "18",
-        "installCommand": "npm install --unsafe-perm",
-        "buildCommand": "vue-tsc -b && vite build"
+        "installCommand": "npm install --legacy-peer-deps",
+        "buildCommand": "npm run build"
       }
+    }
+  ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/index.html"
     }
   ]
 }
