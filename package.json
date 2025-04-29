@@ -5,3 +5,4 @@
     "vercel-build": "npm install --unsafe-perm && npm run build" 
   } 
 } 
+{"scripts": {"dev": "vite","build": "vite build","vercel-build": "npm install --unsafe-perm && npm run build"}} 
